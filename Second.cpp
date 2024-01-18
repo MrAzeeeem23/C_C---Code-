@@ -14,6 +14,8 @@ int main(){
     getline(cin, color); // to take input as a string
 
     cout << "holo " << color << " is my fav. color too \n";
+
+    return 0;
     
 }
 
