@@ -10,11 +10,9 @@ int memory_leak_sim(){
     cout << "Memory allocated \n";
 
     return;
-
 }
 
 int main(){
-
     // memory leak
     memory_leak_sim();
 }
