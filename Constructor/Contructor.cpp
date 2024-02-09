@@ -22,7 +22,6 @@ class Phone{
     ~Phone();
 };
 
-
 Phone::Phone() : _name(), _os(), _price(){
     puts("default constructor");
 }
@@ -38,8 +37,6 @@ Phone::Phone(const Phone & values){
 Phone::~Phone(){
     printf("Distructor is called %s\n" , _name.c_str());
 }
-
-
 
 int main(){
     

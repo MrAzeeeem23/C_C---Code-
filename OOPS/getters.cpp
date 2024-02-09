@@ -4,7 +4,8 @@
 using namespace std;
 
 class myuser{
-    int Secret = 22; // by default it is private 
+    // we should use underscore at the starting of the name is is considerd to be the best practice.
+    int _Secret = 22; // by default it is private 
 
     public:
     string name = "hello world";
@@ -14,7 +15,7 @@ class myuser{
 
     // this is a setter
     void setuser(const int &newscreat){
-        Secret = newscreat;
+        _Secret = newscreat;
     }
     // this is getter
     int getuser(){
