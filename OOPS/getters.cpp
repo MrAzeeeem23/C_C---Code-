@@ -13,7 +13,7 @@ class myuser{
     }
 
     // this is a setter
-    void setuser(const int & newscreat){
+    void setuser(const int &newscreat){
         Secret = newscreat;
     }
     // this is getter
