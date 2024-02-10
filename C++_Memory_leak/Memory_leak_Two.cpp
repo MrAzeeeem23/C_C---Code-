@@ -9,7 +9,7 @@ int memory_leak_func(){
     // ----------treditional method ------------------;
 
     // mypointer = int(nothrow) new[100];
-    // delete [] mypointer; // delets the memory space.
+    // delete [] mypointer; // deletes the memory space.
 
     // int(nothrow) is a small method to handel exception.
 

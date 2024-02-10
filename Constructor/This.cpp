@@ -8,19 +8,22 @@ class Phone{
     string _os = "";
     int _price = 0;
 
-
     public: 
     Phone(); // default constructor
     Phone(const string & name, const string & os, const int & price); // paramether constructor
     Phone(const Phone &); // Copy constructor
 
     // getter
-    string getName(){
-        return _os;
-    }
+    string getName(){return _os;}
 
-    ~Phone();
+    int getPrice();
+    ~Phone(); // distructor
 };
+
+int Phone::getPrice(){
+    printf("this is the memory location %p\n", this); 
+    return _price;
+}
 
 Phone::Phone() : _name(), _os("andy"), _price(){
     puts("default constructor");
@@ -47,7 +50,11 @@ int main(){
     cout << samsungS24.getName() << endl;
 
     Phone Oneplus12("OP12", "Oxygen14" , 70000);
+
+    printf("this is the memory location %p\n", &Oneplus12); // Out memory location address:-0061FE3C.
     cout << Oneplus12.getName() << endl;
+
+    cout << Oneplus12.getPrice() << endl;
 
     return 0;
 }

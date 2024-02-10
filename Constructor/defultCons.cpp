@@ -8,7 +8,8 @@ int Phone{
     string os = "";
 
     public:
-    Phone(); // defulat constructor
+    // Phone(); this can also valid constructor
+    Phone(){}; // defulat constructor
 }
 
 int main(){
