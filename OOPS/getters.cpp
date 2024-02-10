@@ -19,7 +19,7 @@ class myuser{
     void setuser(const int &newscreat){
         _Secret = newscreat;
     }
-    // this is getter
+    // this is getter(refer the example of it on line no 40 or below)
 
     int mylog()const;
 
@@ -31,7 +31,7 @@ class myuser{
 // if in case we wnat to access class method outside of the class or it is not an object of a class.
 // we use some of the sentatic sugar to access them
 
-// First we have to use the class name and :: this sign and method name. to access them.
+// First we have to use the class name and :: this methos is called scope resilution this sign and method name. to access them.
 // NOTE- functions used in a class are said to be methods.
 void myuser::func(){
         cout << "print massage: " << name << endl;
@@ -59,4 +59,6 @@ int main(){
 Is is most common to use constant objects but their is a catch
 in order to access constant method in side a class we use const keyword in the getter method
 non constant object can access const methods but constant objects cannot access non constent methods.
+
+
 */
