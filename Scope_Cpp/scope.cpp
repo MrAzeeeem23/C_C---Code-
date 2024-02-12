@@ -24,3 +24,9 @@ int main(){
 
     return 0;
 }
+
+// ------note------//
+// What is empty scope
+// ans. {
+//      this is the empty scope
+//      }
