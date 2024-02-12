@@ -4,6 +4,13 @@
 using namespace std;
 
 // base class
+class Money{
+public:
+    void money(){
+        puts("i got 500k amount of money in my account");
+    }
+};
+
 class Man{
     string _name;
     int _age;
@@ -33,7 +40,7 @@ public:
     void run(){puts("I can run at light speed");}
 };
 
-class Spiderman : public Man{
+class Spiderman : public Man , public Money{
     bool Wapping;
 public:
     Spiderman(string name) : Man(name , 19){}
@@ -48,6 +55,9 @@ int main(){
     
     Superman Mark("Mark");
     Mark.sayName(); 
-    
+
+    Spiderman peter("Peter parker");
+    peter.money();
+
     return 0;
 }

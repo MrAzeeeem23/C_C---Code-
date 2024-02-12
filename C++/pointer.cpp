@@ -26,3 +26,5 @@ int main(){
     return 0;
 
 }
+// ----Note----
+// to access the method with pointer we cannot do with dot . we have to use -> this kind of sign.
