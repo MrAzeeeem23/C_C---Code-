@@ -4,7 +4,27 @@
 
 using namespace std;
 
+class User{
+public:
+    User(){
+        cout << "user constructor" endl;
+    } // constructor
+
+    ~User(){
+        cout << "user distructor" endl;
+    }
+
+    void testcall(){
+        cout << "hello world" << endl;
+    }
+
+}
+
 int main(){
+
+    {
+        
+    }
 
     return 0;
 }
