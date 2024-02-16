@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// Template is like empty plate, like we can take any dataype is it.
+
 // Template can take any Data type and retrun it.
 // does not need for define different methods or functions with any return type
 template <typename T> // We can use any name, Insted of T or what ever.

@@ -3,7 +3,7 @@
 using namespace std;
 
 
-// "struct" keyword is used to define the structure of the object.
+// "struct" keyword is used to define the structure or structure of the object.
 struct my_user{
     const int uId;
     const char *name;
